@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 1em;
+}
+
 body {
-    background-color: white;
+    background-color: #69b4e6;
     margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
@@ -46,14 +52,58 @@ body {
 
 /*footer*/
 
-footer {
-    background-color: grey;
+footer { /*si lo quito, no funciona el background de abajo y visceversa*/
+    background-color: #f2f2f2;
+    
 }
 
 footer .container-footer {
-    max-width: var(--max-width);
     margin: 0;
-    display: flex;
-    justify-content: space-between;   
+    border-top: thin solid #e4e4e4;
+    border-bottom: thin solid #e4e4e4;
+    display: flex; 
+    background-color: #f2f2f2;
+    color: #0000008A;
+    font-size: 0.93rem;
+}   
+
+footer .links-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
 }
 
+footer .links {
+  display: flex;
+}
+
+footer p {
+  margin: 0.8em 0.8em;
+}
+
+.padding-footer-left {
+  padding-left: 1.2em;
+  color: #4e4c4c28;
+}
+
+.padding-footer-right {
+  padding-right: 1.2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 0.93rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a:active {
+  color: #e95555;
+}
+
+footer a:visited {
+  color: ;
+}
