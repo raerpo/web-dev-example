@@ -7,6 +7,43 @@ body {
     margin: 0;
 }
 
+/* Header */
+
+.container-header {
+  padding: 1em;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-text {
+  margin: 0;
+  padding: 0 .5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.header-text a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header-button {
+  padding: 0 .8em;
+}
+
+.button-img1 {
+  width: 20px;
+  height: 20px;
+}
+
+.button-img2 {
+  width: 30px;
+  height: 30px;
+}
+
+>>>>>>> 87528b52e4a6d064e5b73e602777a4b4d23c9e8f
+
 /*footer*/
 
 footer {
@@ -19,3 +56,4 @@ footer .container-footer {
     display: flex;
     justify-content: space-between;   
 }
+
