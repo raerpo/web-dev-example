@@ -63,6 +63,41 @@ body {
   align-items: center;
 }
 
+.google-img {
+  width: 272px;
+  height: 92px;
+}
+
+.search-box {
+  border: 1px solid #dfe1e5;
+  height: 2.7em;
+  width: 36.3em;
+  padding: .5em;
+  border-radius: 24px;
+  display: flex;
+}
+
+.search-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  outline: none;
+  width: 32em;
+  padding: .3em .9em;
+}
+
+.icon-box {
+  display: flex;
+}
+
+.material-icons.md-18 {
+  font-size: 19px;
+  color: #9aa0a6;
+  align-self: center;
+  padding: 0em .3em;
+}
+
 /*footer*/
 
 footer { 
