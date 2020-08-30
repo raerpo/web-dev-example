@@ -56,6 +56,11 @@ body {
 
 /* Main */
 
+.google-img {
+  width: 272px;
+  height: 92px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -63,9 +68,42 @@ body {
   align-items: center;
 }
 
+.search-box {
+  border: 1px solid #dfe1e5;
+  height: 2.7em;
+  width: 36.3em;
+  padding: .5em;
+  border-radius: 24px;
+  display: flex;
+}
+
+.search-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  outline: none;
+  width: 32em;
+  padding: .3em .9em;
+}
+
+.icon-box {
+  display: flex;
+}
+
+.material-icons.md-18 {
+  font-size: 19px;
+  color: #9aa0a6;
+  align-self: center;
+  padding: 0em .3em;
+}
+ 
+/*-----------------------------------------*/
+
 main .input-main {
   height: 2.2em;
   display: flex;
+  margin: 2em 2em 1em 2em;
 }
 
 main .input-styles {
@@ -100,13 +138,12 @@ main .location > p > a {
 
 main .location > p > a:hover {
   text-decoration: underline;
-}
+
 
 /*footer*/
 
 footer { 
-  background-color: #f2f2f2; 
-    
+  background-color: #f2f2f2;   
 }
 
 /*row 1*/
