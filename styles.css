@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; /*doesn't work*/
+  box-sizing: border-box; 
 }
 
 body {
@@ -98,31 +98,45 @@ body {
   padding: 0em .3em;
 }
 
-main .input-main {
+main .buttons-main {
   height: 2.2em;
+  width: 17.7em;
   display: flex;
-  margin: 2em 2em 1em 2em;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.1em 2em 0.8em 2em;
 }
 
-main .input-styles {
-  font-size: 0.8rem;
+main .button-left > button {
+  font-size: 0.9rem;
+  border: 1px solid #f2f2f2;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  text-decoration: none;
   background-color: #f2f2f2;
   color: #5F6368;
-  border: 2px solid #f2f2f2;
-  border-radius: 0.3em;
-  padding: 0 1em;
-  margin: 0,6em 0,2em;
-  cursor: pointer;
 }
 
-main .input-styles:hover {
-  background-color: #f8f8f8;
+main .button-left > button:hover {
+  background-color: #f5f5f5;
   border: 1px solid #c6c6c6;
   color: black;
 }
 
-main .input-styles:active {
-  border: 1px solid #267bc0;
+main .button-right > a {
+  font-size: 0.9rem;
+  border: 1px solid #f2f2f2;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #5F6368;
+}
+
+main .button-right > a:hover {
+  background-color: #f5f5f5;
+  border: 1px solid #c6c6c6;
+  color: black;
 }
 
 main .location > p {
@@ -134,10 +148,10 @@ main .location > p > a {
   text-decoration: none;
 }
 
-/*
+
 main .location > p > a:hover {
   text-decoration: underline;
-*/
+}
 
 /*footer*/
 
